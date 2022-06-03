@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(f.png); background-size: 95%; ">
+	<div class="main">
+		<div class="book">
+			<img src="book.png">
+		</div>
+		<div class="portfel">
+			<img src="portfel.png">
+		</div>
+		<div class="smenka">
+			<img src="smenka.png">
+		</div>
+		
+		<div class="corobkasedoi">
+			<img src="eda.png">
+		</div>
+		<div class="dnevnik">
+			<img src="dnevnik.png">
+		</div>
+
+		<div class="bookItem">
+			<img src="book.png" alt="">
+		</div>
+		<div  class="portfelItem"> 
+			<img src="portfel.png" alt="">
+		</div>
+		<div  class="smenkaItem"> 
+			<img src="smenka.png" alt="">
+		</div>
+		<div class="corobkasedoiItem">
+			<img src="eda.png" alt="">
+		</div>
+		<div  class="dnevnikItem"> 
+			<img src="dnevnik.png" alt="">
+		</div>
+		<img src="player.png" alt="" class="main_player">
+	</div>
+	
+	<!--2 локация-->
+	<div class="location2" style="display:none;">
+		<!--таймер-->
+		<h6 class="text-light loc2_timeSize">Время: <span class="loc2_timeText ">10</span></h6>
+
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<img src="Loc2/doska.png" style="position: absolute; width: 300px" >
+			<h4 class="p-2 pl-4 text-white" style="position: absolute; width: 300px">Что нужно чтобы выковать меч?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc2_teacher"></div> 
+
+		<!--парты школьные-->
+		<div style="position: absolute; margin-top: 17%; margin-left: 25%">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 220px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 440px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute; margin-left: 660px">			
+		</div>
+		<div style="position: absolute; margin-top: 25%; margin-left: 25%">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 220px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 440px">
+			<img src="Loc2/stol.png" style="width: 200px; position: absolute;margin-left: 660px">			
+		</div>
+
+		<!--варианты ответов-->
+		<div class="loc2_variants_block">
+			 <div class="loc2_variants">Вариант 1: Мясо</div>
+			 <div class="loc2_variants" style="margin-left: 150px;">Вариант 2: Серебро</div>
+			 <div class="loc2_variants" style="margin-left: 300px; ">Вариант 3: Алмаз</div>
+			 <div class="loc2_variants" style="margin-top: 140px; ">Вариант 4: Золото</div>
+			 <div class="loc2_variants" style="margin-top: 140px; margin-left: 150px;">Вариант 5: Олово</div>
+			 <div class="loc2_pravilno" style="margin-top: 140px; margin-left: 300px;">Вариант 6: Железная руда</div>
+		</div>
+
+		<!--игрок на 2-ой локации-->
+		<img src="Loc2/player_fall.png" class="loc2_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc2_talk" >
+			Ответь на вопрос который на доске. У тебя 10 секунд
+		</div>
+	</div>
+	
+<script src="script.js"></script>
+	
+</body>
+</html>

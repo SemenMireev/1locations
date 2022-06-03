@@ -1,0 +1,114 @@
+
+		html{
+			height: 100%;
+		}
+		@font-face{
+			src:url(18473.ttf);
+			font-family: my-font;
+		}
+		body{
+			font-family: my-font;
+			color: white;
+			height: 100%;
+		}
+		/*главная*/
+		.bookItem{
+			position: absolute;
+			top:50%;
+			left: 12%
+		}
+		.portfelItem{
+			top:25%;
+			position: absolute;
+			left:30%;
+		}
+		.main_player{
+			position: absolute;
+			top:80%;
+			left: 24%;
+			transition:  0.8s;
+		}
+		.smenkaItem{
+			position: absolute;
+			top:80%;
+			left: 40%;
+		}
+		.corobkasedoiItem{
+			position: absolute;
+			top:60%;
+			left: 56%;
+		}
+		.dnevnikItem{
+			position: absolute;
+			top:30%;
+			left: 50%;
+		}
+		.rychkaItem{
+			position: absolute;
+			top:40%;
+			left: 60%;
+		}
+		
+
+		/*2 локация*/
+		.loc2_teacher {
+			height: 100px;
+			width: 80px;
+			margin-left: 55%; 
+			position: absolute; 
+			margin-top: 10%;
+            background-image: url(Loc2/female_stand.png);
+            background-size: 100% 100%;
+		}
+		.loc2_talk {
+			position: absolute;
+			width: 300px;
+			margin-left: 56%;
+			display: none;
+			background-image: url(Loc2/talk.png);
+			background-size: 100% 100%;
+			color: black;
+			padding: 50px;
+		}
+
+		.loc2_pravilno{
+			background-color: gray; width: 100px; position: absolute;
+		}
+
+		.loc2_player {
+			left:30%; top:40%; position: absolute;
+		}
+
+		.loc2_variants {
+			background-color: gray; width: 100px; position: absolute;
+		}
+		.loc2_variants_block{
+			display: flex; position: absolute; top: 70%;left: 2%; display:none;
+		}
+		.loc2_timeSize {
+			font-size: 30px
+		}
+		.loc2_pole {
+			margin-top: 25%;
+			position: absolute;
+		}
+		
+		.book {
+			width: 130px; border: white 2px solid; display: none
+		}
+
+		.portfel {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.smenka {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.corobkasedoi {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.dnevnik {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.rychka {
+			width: 130px; border: white 2px solid; display: none
+		}
